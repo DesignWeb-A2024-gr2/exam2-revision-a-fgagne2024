@@ -23,7 +23,7 @@
 
                 <h1 id="titre_formulaire">Grille d'auto-évaluation</h1>
 
-                <form id="formulaire_examen">
+                <form action="https://designweb-production.up.railway.app/submit" method="post" id="formulaire_examen" onsubmit="return ValideSubmit()">
                     
                     <div class="ligne_formulaire ligne_deux_colonnes">
                         <div class="colonne_gauche">
@@ -42,6 +42,7 @@
                             <div id="da_icone_succes" class="hidden">
                                 <i class="fas fa-check-circle icone_succes"></i> 
                             </div>
+                            
                         </div>
                         
                     </div>    

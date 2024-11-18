@@ -86,7 +86,7 @@ function ValidationDa(){
         
         daIconeErreur.classList.remove('hidden');
         daIconeSucces.classList.add('hidden');
-        valide = true;
+        
     }
     return valide;
 }
@@ -147,8 +147,6 @@ function ValideSubmit(){
     else if (declaration.checked == false){
         messageDecla.innerHTML = "Vous devez lire la declaration"
     }
-    else{
-        messageDecla.innerHTML = ""
-    }
+
     return valide;
 }
